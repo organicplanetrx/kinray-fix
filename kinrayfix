@@ -1,0 +1,3 @@
+git add .
+git commit -m "Fix connection test timeouts and error handling - immediate feedback for Kinray portal"
+git push origin main
