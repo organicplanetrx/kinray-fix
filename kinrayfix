@@ -1,3 +1,3 @@
-git add render.yaml
-git commit -m "Fix Render root directory configuration"
+git add build.sh start.sh render.yaml
+git commit -m "Add intelligent build and start scripts to handle Render directory detection"
 git push origin main
