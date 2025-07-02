@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: pharmcost-pro
+    env: node
+    buildCommand: ./build.sh
+    startCommand: ./start.sh
+    envVars:
+      - key: NODE_ENV
+        value: production
+    healthCheckPath: /api/vendors
